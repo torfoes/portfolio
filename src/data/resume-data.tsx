@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   location: "College Station, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
-      "Founder of MyCache and a Computer Science student passionate about software development and continuous learning. I love shipping projects and sharing my work. Ask me about my latest tech stack or how I turned an idea into a product!",
+      "Founder of MyCache and a Computer Science student who loves building things. Ask me about my last hackathon or my latest tech stack.",
 
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
@@ -114,6 +114,17 @@ export const RESUME_DATA = {
       }
     },
     {
+      "title": "Whisper Disco",
+      "techStack": ["WebRTC", "MediaSoup"],
+      "description": "Stream audio for silent discos over a local network using WebRTC and MediaSoup. Show up and bring the party!",
+      "link": {
+        "label": "Whisper Disco",
+        "href": ""
+      }
+    },
+
+
+    {
       title: "Left Off",
       techStack: ["OpenAI", "Semantic Search", "YouTube"],
       description:
@@ -123,15 +134,15 @@ export const RESUME_DATA = {
         href: "",
       },
     },
-    {
-      title: "ETHglobal Lisbon",
-      techStack: ["Ethereum", "Blockchain"],
-      description:
-          "Took part in a three-day Ethereum-focused hackathon in Lisbon, Portugal. Developed a block visualizer showcasing rollup interactions on the Ethereum blockchain.",
-      link: {
-        label: "ETHglobal Lisbon",
-        href: "",
-      },
-    },
+    // {
+    //   title: "ETHglobal Lisbon",
+    //   techStack: ["Ethereum", "Blockchain"],
+    //   description:
+    //       "Took part in a three-day Ethereum-focused hackathon in Lisbon, Portugal. Developed a block visualizer showcasing rollup interactions on the Ethereum blockchain.",
+    //   link: {
+    //     label: "ETHglobal Lisbon",
+    //     href: "",
+    //   },
+    // },
   ],
 } as const;
