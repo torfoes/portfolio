@@ -24,7 +24,7 @@ RUN apt-get update && \
     apt-get install -y certbot python3-certbot-nginx
 
 # Copy built app from builder
-COPY --from=builder /usr/src/app/.next /usr/share/nginx/html
+COPY --from=builder /usr/src/app /usr/src/app
 
 # Copy Nginx configuration file
 COPY nginx.conf /etc/nginx/nginx.conf

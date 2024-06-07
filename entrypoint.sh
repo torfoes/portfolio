@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Start Next.js server in the background
+node /usr/src/app/server.js &
+
 # Start Nginx in the background
 nginx &
 
