@@ -5,7 +5,7 @@ import "./globals.css";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Resume | Karlos Zurutuza",
+  title: "Karlos Zurutuza | Resume & Portfolio",
   description: "Karlos Zurutuza's resume and portfolio.",
 };
 
