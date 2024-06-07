@@ -41,3 +41,4 @@ EXPOSE 80 443
 
 # Run the entrypoint script
 ENTRYPOINT ["/entrypoint.sh"]
+

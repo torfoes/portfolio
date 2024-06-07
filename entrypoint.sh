@@ -14,3 +14,4 @@ nginx -s reload
 
 # Keep the container running
 tail -f /dev/null
+
