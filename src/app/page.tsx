@@ -92,12 +92,12 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section>
-          <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
-            {RESUME_DATA.summary}
-          </p>
-        </Section>
+        {/*<Section>*/}
+        {/*  <h2 className="text-xl font-bold">About</h2>*/}
+        {/*  <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">*/}
+        {/*    {RESUME_DATA.summary}*/}
+        {/*  </p>*/}
+        {/*</Section>*/}
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -161,19 +161,23 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
+          <h2 className="text-xl font-bold text-black print:text-black">Skills</h2>
+          <div className="flex flex-wrap gap-2 print:gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return (
-                <Badge className="print:text-[10px]" key={skill}>
-                  {skill}
-                </Badge>
+                  <Badge
+                      className="bg-gray-200 text-black border border-gray-400 print:text-[10px] print:bg-white print:border-black print:border-2"
+                      key={skill}
+                  >
+                    {skill}
+                  </Badge>
               );
             })}
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {

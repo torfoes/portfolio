@@ -17,271 +17,121 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
+
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Karlos Zurutuza",
+  initials: "KZ",
+  location: "College Station, TX, USA",
+  locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+      "Founder of MyCache and a Computer Science student passionate about software development and continuous learning. I love shipping projects and sharing my work. Ask me about my latest tech stack or how I turned an idea into a product!",
+
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+      "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/55366904?s=400&u=4472410fd5ceb120cde352e6c7cb7ded2ba33533&v=4",
+  personalWebsiteUrl: "https://github.com/torfoes",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "karlos.zurutuza@tamu.edu",
+    tel: null,
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/torfoes",
         icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Texas A&M University",
+      degree: "B.S Computer Science",
+      start: "Aug. 2019",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "MyCache",
+      link: "https://mycache.dev",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Founder",
+      logo: null, // Update with MyCache logo if available
+      start: "Nov. 2023",
+      end: "Current",
       description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+          "Leading a team working on improving the game of geocaching using NFC technology. Developed a web app, mobile app, backend services, as well as a reel to reel NFC encoder. Designed the product and developed the software.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Vex Robotics",
+      link: "https://www.vexrobotics.com",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      title: "Intern",
+      logo: null,
+      start: "Mar. 2018",
+      end: "Aug. 2020",
+      description:
+          "Designed products from concept to production; one is now sold nationwide. Experienced the complete engineering design cycle. Produced both customer-facing and manufacturing drawings for various products. Assisted with design, modeling, and testing for a variety of future products.",
+    },
+  ],
+  activities: [
+    {
+      organization: "FRC Team 3310",
+      title: "Mentor",
+      start: "Jan. 2022",
+      end: "Current",
+      description:
+          "Delegated tasks and lead CAD / Programming training sessions. Managed the ordering of new parts. Worked with strategists to set design goals and deadlines.",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Solidworks",
+    "Photoshop",
+    "Illustrator",
+    "C++",
+    "Python",
+    "Solidity",
+    "React",
+    "Django",
+    "Web3.js",
+    "AWS",
+    "GCP",
+    "Git",
+    "Docker",
+    "Hugging Face",
+    "Local LLaMA",
+    "Eagle Scout",
   ],
   projects: [
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      "title": "MyCache",
+      "techStack": ["NFC", "Django", "React", "React Native"],
+      "description": "Treasure hunt game using NFC technology. Built with Django for the backend and React/React Native for the frontend.",
+      "link": {
+        "label": "MyCache",
+        "href": "https://mycache.dev"
+      }
+    },
+    {
+      title: "Left Off",
+      techStack: ["OpenAI", "Semantic Search", "YouTube"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+          "Used the OpenAI embedding engine to enable semantic searches of YouTube video transcripts. Minimized costs by storing embeddings efficiently. Developed a low-cost scalable tech stack.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "Left Off",
+        href: "",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "ETHglobal Lisbon",
+      techStack: ["Ethereum", "Blockchain"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+          "Took part in a three-day Ethereum-focused hackathon in Lisbon, Portugal. Developed a block visualizer showcasing rollup interactions on the Ethereum blockchain.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "ETHglobal Lisbon",
+        href: "",
       },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
