@@ -1,14 +1,51 @@
 version: '3.8'
 
 services:
-  nextjs:
+  nextjs1:
     build:
       context: .
     ports:
-      - "3000:3000"
+      - "3001:3000"
     environment:
       - NODE_ENV=production
-
+      - NAME=Karlos Zurutuza
+      - avatarUrl=https://avatars.githubusercontent.com/u/55366904?s=400&u=4472410fd5ceb120cde352e6c7cb7ded2ba33533&v=4
+  nextjs2:
+    build:
+      context: .
+    ports:
+      - "3002:3000"
+    environment:
+      - NODE_ENV=production
+      - NAME=Karlos Ignazio Zurutuza
+      - avatarUrl=https://storage.cloud.google.com/mycache_dev/personal/IMG_1442.JPG
+  nextjs3:
+    build:
+      context: .
+    ports:
+      - "3003:3000"
+    environment:
+      - NODE_ENV=production
+      - NAME=Karlos Ignazio Zurutuza Frankowski
+      - avatarUrl=https://storage.cloud.google.com/mycache_dev/personal/A4D06C79-5447-4495-97C0-1AF33B682858.JPG
+  nextjs4:
+    build:
+      context: .
+    ports:
+      - "3004:3000"
+    environment:
+      - NODE_ENV=production
+      - NAME=Karlos
+      - avatarUrl=https://storage.cloud.google.com/mycache_dev/personal/99871D90-FF2D-482B-9795-562655462E56.JPG
+  nextjs5:
+    build:
+      context: .
+    ports:
+      - "3005:3000"
+    environment:
+      - NODE_ENV=production
+      - NAME=Karlos Z
+      - avatarUrl=https://storage.cloud.google.com/mycache_dev/personal/424B3E4D-DF5D-45E0-B282-569F2F7A59AA.JPG
   nginx:
     build:
       context: ./nginx
@@ -18,4 +55,8 @@ services:
     volumes:
       - ./nginx/ssl:/etc/nginx/ssl
     depends_on:
-      - nextjs
+      - nextjs1
+      - nextjs2
+      - nextjs3
+      - nextjs4
+      - nextjs5
