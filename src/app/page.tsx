@@ -9,6 +9,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export default function Page() {
+
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
@@ -82,8 +83,11 @@ export default function Page() {
           </div>
 
           <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+            <AvatarImage alt={RESUME_DATA.name}
+                         src={RESUME_DATA.avatarUrl}
+                         style={{objectFit: "cover"}}
+            />
+            {/*<AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>*/}
           </Avatar>
         </div>
         {/*<Section>*/}
