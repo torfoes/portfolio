@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # Build the app
-RUN npm run dev --experimental-https
+RUN npm run build
 
 EXPOSE 3000
 
