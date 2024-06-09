@@ -30,7 +30,7 @@ export const RESUME_DATA = {
 
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
-  avatarUrl: process.env.avatarUrl,
+  avatarUrl: process.env.AVATAR_URL,
   personalWebsiteUrl: "https://github.com/torfoes",
   contact: {
     email: "karlos.zurutuza@tamu.edu",
