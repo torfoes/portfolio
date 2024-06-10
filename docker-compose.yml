@@ -16,4 +16,3 @@ services:
     build: ./cv-nextjs
     expose:
       - "3000"
-
