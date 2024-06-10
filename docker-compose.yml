@@ -1,47 +1,22 @@
 version: '3.8'
 
 services:
-  nextjs1:
-    build:
-      context: .
-      args:
-        NAME: "Karlos Zurutuza"
-        AVATAR_URL: "https://avatars.githubusercontent.com/u/55366904?s=400&u=4472410fd5ceb120cde352e6c7cb7ded2ba33533&v=4"
+  nginx:
+    build: ./nginx
     ports:
-      - "3001:3000"
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/www/certbot:/var/www/certbot
+    depends_on:
+      - cv-nextjs
 
-  nextjs2:
-    build:
-      context: .
-      args:
-        NAME: "Karlos Ignazio Zurutuza"
-        AVATAR_URL: "https://storage.cloud.google.com/mycache_dev/personal/IMG_1442.JPG"
-    ports:
-      - "3002:3000"
-
-  nextjs3:
-    build:
-      context: .
-      args:
-        NAME: "Karlos Ignazio Zurutuza Frankowski"
-        AVATAR_URL: "https://storage.cloud.google.com/mycache_dev/personal/A4D06C79-5447-4495-97C0-1AF33B682858.JPG"
-    ports:
-      - "3003:3000"
-
-  nextjs4:
-    build:
-      context: .
-      args:
-        NAME: "Karlos"
-        AVATAR_URL: "https://storage.cloud.google.com/mycache_dev/personal/99871D90-FF2D-482B-9795-562655462E56.JPG"
-    ports:
-      - "3004:3000"
-
-  nextjs5:
-    build:
-      context: .
-      args:
-        NAME: "Karlos Z"
-        AVATAR_URL: "https://storage.cloud.google.com/mycache_dev/personal/424B3E4D-DF5D-45E0-B282-569F2F7A59AA.JPG"
-    ports:
-      - "3005:3000"
+  cv-nextjs:
+    image: node:latest
+    working_dir: /app
+    volumes:
+      - ./cv-nextjs:/app
+    command: "npm start"
+    expose:
+      - "3000"
