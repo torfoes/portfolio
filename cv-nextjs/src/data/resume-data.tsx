@@ -134,15 +134,6 @@ export const RESUME_DATA = {
         href: "",
       },
     },
-    // {
-    //   title: "ETHglobal Lisbon",
-    //   techStack: ["Ethereum", "Blockchain"],
-    //   description:
-    //       "Took part in a three-day Ethereum-focused hackathon in Lisbon, Portugal. Developed a block visualizer showcasing rollup interactions on the Ethereum blockchain.",
-    //   link: {
-    //     label: "ETHglobal Lisbon",
-    //     href: "",
-    //   },
-    // },
+
   ],
 } as const;
