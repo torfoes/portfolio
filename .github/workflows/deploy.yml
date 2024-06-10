@@ -22,11 +22,10 @@ jobs:
         env:
           SSH_HOST: ${{ secrets.SSH_HOST }}
           SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
-          PROJECT_DIRECTORY: "/cv"
 
         run: |
           ssh -o StrictHostKeyChecking=no -i $SSH_AUTH_SOCK $SSH_USERNAME@$SSH_HOST << 'EOF'
-            cd /path/to/your/project
+            cd cv
             git pull
             docker-compose down
             docker-compose up -d --build
