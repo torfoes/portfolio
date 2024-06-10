@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       start: "Nov. 2023",
       end: "Current",
       description:
-          "Leading a team working on improving the game of geocaching using NFC technology. Developed a web app, mobile app, backend services, as well as a reel to reel NFC encoder. Designed the product and developed the software.",
+          "Leading a team working on improving the game of geocaching using NFC technology. Developed a web app, mobile app, backend services, as well as a reel to reel NFC encoder.",
     },
     {
       company: "Vex Robotics",
