@@ -28,5 +28,6 @@ jobs:
             cd cv
             git pull
             docker-compose down
-            docker-compose up -d --build
+            DOCKER_BUILDKIT=1 docker-compose build --no-cache cv-nextjs
+            docker-compose up -d
           EOF

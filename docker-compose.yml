@@ -13,6 +13,7 @@ services:
       - cv-nextjs
 
   cv-nextjs:
-    build: ./cv-nextjs
+    build:
+      context: ./cv-nextjs
     expose:
       - "3000"
