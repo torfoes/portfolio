@@ -13,10 +13,6 @@ services:
       - cv-nextjs
 
   cv-nextjs:
-    image: node:latest
-    working_dir: /app
-    volumes:
-      - ./cv-nextjs:/app
-    command: "npm start"
+    build: ./cv-nextjs
     expose:
       - "3000"
