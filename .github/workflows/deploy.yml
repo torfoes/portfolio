@@ -25,9 +25,8 @@ jobs:
 
         run: |
           ssh -o StrictHostKeyChecking=no -i $SSH_AUTH_SOCK $SSH_USERNAME@$SSH_HOST << 'EOF'
-            cd cv
+            cd portfolio
             git pull
             docker-compose down
-            DOCKER_BUILDKIT=1 docker-compose build --no-cache cv-nextjs
-            docker-compose up -d
+            docker-compose up -d --build
           EOF
