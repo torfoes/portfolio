@@ -134,6 +134,5 @@ export const RESUME_DATA = {
         href: "",
       },
     },
-
   ],
 } as const;
