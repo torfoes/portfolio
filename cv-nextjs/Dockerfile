@@ -2,12 +2,6 @@ FROM node:18-slim
 
 WORKDIR /usr/src/app
 
-ARG NAME
-ARG AVATAR_URL
-
-# Set environment variables from build arguments
-ENV NAME=${NAME}
-ENV AVATAR_URL=${AVATAR_URL}
 
 COPY package*.json ./
 

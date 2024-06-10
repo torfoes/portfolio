@@ -21,7 +21,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: process.env.NAME,
+  name: "Karlos Zurutuza",
   initials: "KZ",
   location: "College Station, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
@@ -30,7 +30,7 @@ export const RESUME_DATA = {
 
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
-  avatarUrl: process.env.AVATAR_URL,
+  avatarUrl: "https://avatars.githubusercontent.com/u/55366904?v=4",
   personalWebsiteUrl: "https://github.com/torfoes",
   contact: {
     email: "karlos.zurutuza@tamu.edu",
