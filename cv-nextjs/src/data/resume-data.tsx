@@ -119,7 +119,7 @@ export const RESUME_DATA = {
       "description": "Stream audio for silent discos over a local network using WebRTC and MediaSoup. Show up and bring the party!",
       "link": {
         "label": "Whisper Disco",
-        "href": ""
+        "href": "https://github.com/torfoes/whisperdisco"
       }
     },
 
