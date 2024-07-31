@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       school: "Texas A&M University",
       degree: "B.S Computer Science",
       start: "Aug. 2019",
-      end: "2023",
+      end: "2024",
     },
   ],
   work: [
