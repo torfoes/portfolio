@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       start: "Nov. 2023",
       end: "Current",
       description:
-          "Leading a team working on improving the game of geocaching using NFC technology. Developed a web app, mobile app, backend services, as well as a reel to reel NFC encoder.",
+          "Leading a team to improve geocaching through NFC technology, developing web and mobile apps, backend services, and a reel-to-reel NFC encoder for efficient NFC tag programming.",
     },
     {
       company: "Vex Robotics",
@@ -71,8 +71,7 @@ export const RESUME_DATA = {
       logo: null,
       start: "Mar. 2018",
       end: "Aug. 2020",
-      description:
-          "Designed products from concept to production; one is now sold nationwide. Experienced the complete engineering design cycle. Produced both customer-facing and manufacturing drawings for various products. Assisted with design, modeling, and testing for a variety of future products.",
+      description: "Assisted in product development from concept through production, contributing to a product now available nationwide. Gained hands-on experience with the full engineering design cycle. Created customer-facing and manufacturing drawings for a range of products. Supported design, modeling, and testing efforts for future projects."
     },
   ],
   activities: [
@@ -92,7 +91,6 @@ export const RESUME_DATA = {
     "C++",
     "Python",
     "Solidity",
-    "React",
     "Django",
     "Web3.js",
     "AWS",
@@ -101,13 +99,14 @@ export const RESUME_DATA = {
     "Docker",
     "Hugging Face",
     "Local LLaMA",
+    "Next.js",
     "Eagle Scout",
   ],
   projects: [
     {
       "title": "MyCache",
       "techStack": ["NFC", "Django", "React", "React Native"],
-      "description": "Treasure hunt game using NFC technology. Built with Django for the backend and React/React Native for the frontend.",
+      "description": "Digital treasure hunt game powered by NFC technology.",
       "link": {
         "label": "MyCache",
         "href": "https://mycache.dev"
@@ -116,19 +115,17 @@ export const RESUME_DATA = {
     {
       "title": "Whisper Disco",
       "techStack": ["WebRTC", "MediaSoup"],
-      "description": "Stream audio for silent discos over a local network using WebRTC and MediaSoup. Show up and bring the party!",
+      "description": "Stream audio for silent discos over a local network. Show up and bring the party!",
       "link": {
         "label": "Whisper Disco",
         "href": "https://github.com/torfoes/whisperdisco"
       }
     },
-
-
     {
       title: "Left Off",
-      techStack: ["OpenAI", "Semantic Search", "YouTube"],
+      techStack: ["Firebase", "OpenAI API", "YouTube API"],
       description:
-          "Used the OpenAI embedding engine to enable semantic searches of YouTube video transcripts. Minimized costs by storing embeddings efficiently. Developed a low-cost scalable tech stack.",
+          "Created an application for easy semantic searches of YouTube video transcripts. Minimized costs by storing embeddings efficiently.",
       link: {
         label: "Left Off",
         href: "",
