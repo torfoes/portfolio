@@ -26,14 +26,13 @@ export const RESUME_DATA = {
   location: "College Station, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
-      "Founder of MyCache and a Computer Science student who loves building things. Ask me about my last hackathon or my latest tech stack.",
-
+      "Computer Science student graduating December 2024. Ask me about my NFC-powered geocaching project or involvement with the Engineering Entrepreneurship Incubator at TAMU. Former Vex Robotics intern.",
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55366904?v=4",
   personalWebsiteUrl: "https://github.com/torfoes",
   contact: {
-    email: "karlos.zurutuza@tamu.edu",
+    email: "karloszuru@gmail.com",
     tel: null,
     social: [
       {
@@ -122,13 +121,13 @@ export const RESUME_DATA = {
       }
     },
     {
-      title: "Left Off",
-      techStack: ["Firebase", "OpenAI API", "YouTube API"],
+      title: "PushPal",
+      techStack: ["Next.js", "WebPush"],
       description:
-          "Created an application for easy semantic searches of YouTube video transcripts. Minimized costs by storing embeddings efficiently.",
+          "Manage attendance and check-ins and send group push notifications to keep everyone informed.",
       link: {
-        label: "Left Off",
-        href: "",
+        label: "PushPal",
+        href: "https://pushpal.app",
       },
     },
   ],
