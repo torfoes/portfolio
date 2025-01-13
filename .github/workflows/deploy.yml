@@ -27,6 +27,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i $SSH_AUTH_SOCK $SSH_USERNAME@$SSH_HOST << 'EOF'
             cd portfolio
             git pull
-            docker-compose down
-            docker-compose up -d --build
+            npm run build
+            npm run start
           EOF

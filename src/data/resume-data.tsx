@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   location: "College Station, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
-      "Computer Science student graduating December 2024. Ask me about my NFC-powered geocaching project or involvement with the Engineering Entrepreneurship Incubator at TAMU. Former Vex Robotics intern.",
+      "Recent Texas A&M Computer Science graduate (December 2024). Built and now run MyCache, an NFC-powered treasure hunt game. Former Vex Robotics intern. ",
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55366904?v=4",
@@ -84,6 +84,8 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+      "ROS2",
+      "Linux",
     "Solidworks",
     "Photoshop",
     "Illustrator",
@@ -99,7 +101,7 @@ export const RESUME_DATA = {
     "Hugging Face",
     "Local LLaMA",
     "Next.js",
-    "Eagle Scout",
+    // "Eagle Scout",
   ],
   projects: [
     {
