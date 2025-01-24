@@ -23,7 +23,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Karlos Zurutuza",
   initials: "KZ",
-  location: "College Station, TX, USA",
+  location: "Rockwall, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
       "Recent Texas A&M Computer Science graduate (December 2024). Built and now run MyCache, an NFC-powered treasure hunt game. Former Vex Robotics intern. ",
