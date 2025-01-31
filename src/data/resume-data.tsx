@@ -84,7 +84,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Zero Trust",
+    // "Zero Trust",
     "ROS2",
       "Linux",
       "Solidworks",
@@ -95,7 +95,9 @@ export const RESUME_DATA = {
       "TypeScript",
       "Solidity",
       "Django",
-      "Web3.js",
+    "CI/CD",
+
+    "Azure",
       "AWS",
       "GCP",
       "Git",
