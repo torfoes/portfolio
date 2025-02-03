@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   location: "Rockwall, TX, USA",
   locationLink: "https://www.google.com/maps/place/College+Station,+TX",
   about:
-      "Recent Texas A&M Computer Science graduate (December 2024). Built and now run MyCache, an NFC-powered treasure hunt game. Former Vex Robotics intern. ",
+      "Recent Texas A&M Computer Science graduate (December 2024). Built and now run MyCache, an NFC-powered treasure hunt game.",
   summary:
       "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55366904?v=4",
