@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       start: "Nov. 2023",
       end: "Current",
       description:
-          "Leading a team to improve geocaching through NFC technology, developing web and mobile apps, backend services, and a reel-to-reel NFC encoder for efficient NFC tag programming.",
+          "Leading a team to improve geocaching through NFC technology, developing web and mobile apps, backend services, and a reel-to-reel NFC encoder for efficient tag programming.",
     },
     {
       company: "Vex Robotics",
@@ -86,24 +86,25 @@ export const RESUME_DATA = {
   skills: [
     // "Zero Trust",
     "ROS2",
-      "Linux",
+      "Mujoco",
       "Solidworks",
       "Photoshop",
       "Illustrator",
       "C++",
       "Python",
       "TypeScript",
-      "Solidity",
       "Django",
     "CI/CD",
+    "Next.js",
+
 
     "Azure",
       "AWS",
       "GCP",
       "Git",
       "Docker",
-      "Next.js",
-    // "Eagle Scout",
+    "Reinforcement Learning",
+
   ],
   projects: [
     {
@@ -135,4 +136,27 @@ export const RESUME_DATA = {
       },
     },
   ],
+  leadershipAndService: [
+    {
+      organization: "Boy Scouts of America",
+      title: "Eagle Scout",
+      // Optional dates:
+      // start: "Jun. 2018",
+      // end: "Achieved",
+      description:
+          "Earned Eagle Scout rank by leading impactful community service projects, coordinating team efforts, and mentoring younger scouts.",
+    },
+    {
+      organization: "FRC Team 3310 (FIRST Robotics)",
+      title: "Mentor & Former Member",
+      // Optional dates:
+      // start: "Jan. 2022",
+      // end: "Current",
+      description:
+          "Mentor team members in CAD design and programming; lead technical training sessions, coordinate parts procurement, and set design goals.",
+    },
+  ],
+
+  // Optionally, you can keep your FIRST Robotics entry in a separate activities section:
+
 } as const;
