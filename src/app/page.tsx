@@ -168,11 +168,11 @@ export default function Page() {
                     <h3 className="inline-flex items-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href="#">{entry.organization}</a>
                     </h3>
-                    {(entry.start || entry.end) && (
-                        <div className="text-sm tabular-nums text-gray-500">
-                          {entry.start} {entry.end && `- ${entry.end}`}
-                        </div>
-                    )}
+                    {/*{(entry.start || entry.end) && (*/}
+                    {/*    <div className="text-sm tabular-nums text-gray-500">*/}
+                    {/*      {entry.start} {entry.end && `- ${entry.end}`}*/}
+                    {/*    </div>*/}
+                    {/*)}*/}
                   </div>
                   <h4 className="font-mono text-sm leading-none">{entry.title}</h4>
                 </CardHeader>
