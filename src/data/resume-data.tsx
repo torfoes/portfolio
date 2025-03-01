@@ -55,7 +55,7 @@ export const RESUME_DATA = {
       company: "MyCache",
       link: "https://mycache.dev",
       badges: [],
-      title: "Software Engineer & Founder",
+      title: "Software Engineer",
       logo: null, // Update with MyCache logo if available
       start: "Nov. 2023",
       end: "Current",
