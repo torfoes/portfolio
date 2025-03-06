@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       logo: null,
       start: "Mar. 2018",
       end: "Aug. 2020",
-      description: "Assisted in product development from concept through production, contributing to a product now available nationwide. Gained hands-on experience with the full engineering design cycle. Created customer-facing and manufacturing drawings for a range of products. Supported design, modeling, and testing efforts for future projects."
+      description: "Assisted in product development through the full engineering design cycle. Created customer-facing and manufacturing drawings across various products, and supported design, modeling, and testing for upcoming projects. ",
     },
   ],
   activities: [
@@ -85,25 +85,29 @@ export const RESUME_DATA = {
   ],
   skills: [
     // "Zero Trust",
-    "ROS2",
-      "Mujoco",
-      "Solidworks",
-      "Photoshop",
-      "Illustrator",
-      "C++",
-      "Python",
-      "TypeScript",
-      "Django",
-    "CI/CD",
-    "Next.js",
 
+    "C++",
+    "Python",
+    "TypeScript",
+    "SQL",
+    "Postgres",
+    "Django",
+    "Next.js",
+    "React",
+
+    "ROS2",
+    "Solidworks",
+    "Photoshop",
+    "Illustrator",
 
     "Azure",
-      "AWS",
-      "GCP",
-      "Git",
-      "Docker",
-    "Reinforcement Learning",
+    "AWS",
+    "GCP",
+    "Git",
+    "Docker",
+    "CI/CD",
+    "JIRA",
+    "Agile",
 
   ],
   projects: [
@@ -138,6 +142,14 @@ export const RESUME_DATA = {
   ],
   leadershipAndService: [
     {
+      organization: "Aggie Entrepreneurship Program",
+      title: "Member",
+      start: "Jan. 2024",
+      end: "Dec. 2024",
+      description:
+          "Met weekly to develop and refine business concepts, collaborated on market analysis, and competed in pitch competitions.",
+    },
+    {
       organization: "Boy Scouts of America",
       title: "Eagle Scout",
       // Optional dates:
@@ -155,6 +167,7 @@ export const RESUME_DATA = {
       description:
           "Mentor team members in CAD design and programming; lead technical training sessions, coordinate parts procurement, and set design goals.",
     },
+
   ],
 
   // Optionally, you can keep your FIRST Robotics entry in a separate activities section:
