@@ -85,6 +85,28 @@ export const RESUME_DATA = {
           "Met weekly to refine business concepts; collaborated on market analysis and took place in pitch competitions.",
     },
   ],
+  skills: [
+    "ROS2",
+    "Linux",
+    "Windows Server",
+    "C++",
+    "Python",
+    "TypeScript",
+    "Solidity",
+    "Django",
+    "CI/CD",
+    "Ansible",
+    "Grafana",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Terraform",
+    "Next.js",
+    "Jira",
+    "Agile",
+  ],
+
 
   projects: [
     {
@@ -105,5 +127,6 @@ export const RESUME_DATA = {
       description: "Attendance, check-ins, and group notifications for events.",
       link: { label: "pushpal.app", href: "https://pushpal.app" },
     },
+
   ],
 } as const;

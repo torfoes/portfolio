@@ -6,7 +6,7 @@ import { CommandMenu } from "@/components/command-menu";
 import {GithubIcon, GlobeIcon, MailIcon, PhoneIcon} from "lucide-react";
 import { RESUME_DATA } from "@/data/resume-data";
 import { RESUME_DATA_ES } from "@/data/resume-data.es";
-import { Fragment } from "react";
+import {Badge} from "@/components/ui/badge";
 
 
 export async function generateStaticParams() {
@@ -41,7 +41,7 @@ export default async function Page({ params }: PageProps) {
     ];
   return (
       <main className="container mx-auto p-4 md:p-16 print:p-12">
-        <section className="mx-auto w-full max-w-2xl space-y-4">
+        <section className="mx-auto w-full max-w-2xl space-y-2">
           {/* Header */}
             <div className="flex items-center justify-between">
                 <div className="flex-1 space-y-1.5">
@@ -190,6 +190,24 @@ export default async function Page({ params }: PageProps) {
                 </Card>
             ))}
           </Section>
+
+            <Section>
+                <h2 className="text-xl font-bold text-black print:text-black">Skills</h2>
+                <div className="flex flex-wrap gap-2 print:gap-1">
+                    {RESUME_DATA.skills.map((skill) => {
+                        return (
+                            // eslint-disable-next-line react/jsx-no-undef
+                            <Badge
+                                className="bg-gray-200 text-black border border-gray-400 print:text-[10px] print:bg-white print:border-black print:border-2"
+                                key={skill}
+                            >
+                                {skill}
+                            </Badge>
+                        );
+                    })}
+                </div>
+            </Section>
+
         </section>
 
         <CommandMenu
