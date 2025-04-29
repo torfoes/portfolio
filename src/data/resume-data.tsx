@@ -1,175 +1,109 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Karlos Zurutuza",
   initials: "KZ",
-  location: "Rockwall, TX, USA",
-  locationLink: "https://www.google.com/maps/place/College+Station,+TX",
-  about:
-      "Recent Texas A&M Computer Science graduate (December 2024). Built and now run MyCache, an NFC-powered treasure hunt game.",
+
+  location: "Dallas, TX (Open to US/EU work)",
+  locationLink: "https://maps.app.goo.gl/EVXpy1h6QL2gG9jE8",
+
+  about: "Full-Stack & Embedded Engineer: React/Next, ROS2, NFC, Cloud. US-Spanish citizen.",
+
   summary:
-      "I am a dedicated Computer Science student at Texas A&M University, graduating in 2023. I have experience as an intern at Vex Robotics and have participated in various projects and hackathons, showcasing my skills in software development and team leadership.",
+      "React / Next front-end, Drizzle / Postgres back-end, ROS2 hardware, AWS infra.",
+
   avatarUrl: "https://avatars.githubusercontent.com/u/55366904?v=4",
   personalWebsiteUrl: "https://github.com/torfoes",
+
   contact: {
     email: "karloszuru@gmail.com",
-    tel: null,
+    tel: "469-818-1074",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/torfoes",
-        icon: GitHubIcon,
-      },
+      { name: "GitHub", url: "https://github.com/torfoes", icon: GitHubIcon },
     ],
   },
+
   education: [
     {
       school: "Texas A&M University",
-      degree: "B.S Computer Science",
-      start: "Aug. 2019",
-      end: "2024",
+      degree: "B.S. Computer Science (GPA 3.6)",
+      start: "August 2019",
+      end: "December 2024",
     },
   ],
+
   work: [
     {
       company: "MyCache",
       link: "https://mycache.dev",
-      badges: [],
-      title: "Software Engineer",
-      logo: null, // Update with MyCache logo if available
-      start: "Nov. 2023",
-      end: "Current",
-      description:
-          "Leading a team to improve geocaching through NFC technology, developing web and mobile apps, backend services, and a reel-to-reel NFC encoder for efficient tag programming.",
+      title: "Founder / Lead Engineer",
+      start: "November 2023",
+      end: "Present",
+      bullets: [
+        "Scaled React Native + Next.js stack to serve ~2,100 monthly users.",
+        "Monitored uptime with grafana dashboards running in docker on ecs fargate; confirmed 99.9% uptime",
+        "Built reel-to-reel NTAG 424 DNA encoder (ROS2 / C++) flashing 1000 tags per hour; provisioning time reduced 88%.",
+        "Implemented OAuth 2 sign-in with NextAuth.",
+        "GitHub Actions CI/CD with automated tests and blue-green deploys in under three minutes.",
+      ],
     },
+
     {
-      company: "Vex Robotics",
+      company: "VEX Robotics",
       link: "https://www.vexrobotics.com",
-      badges: [],
-      title: "Intern",
-      logo: null,
-      start: "Mar. 2018",
-      end: "Aug. 2020",
-      description: "Assisted in product development through the full engineering design cycle. Created customer-facing and manufacturing drawings across various products, and supported design, modeling, and testing for upcoming projects. ",
+      title: "Product Development Intern",
+      start: "March 2018",
+      end: "August 2020",
+      bullets: [
+        "Created 120 + SolidWorks drawings used directly in production.",
+        "Consolidated 5000+ SKUs into a searchable Excel catalog, cutting pick-and-pack time by 40%.",
+        "Prototyped Next-Generation VEX Robotics Kits",
+      ],
     },
   ],
-  activities: [
-    {
-      organization: "FRC Team 3310",
-      title: "Mentor",
-      start: "Jan. 2022",
-      end: "Current",
-      description:
-          "Delegated tasks and lead CAD / Programming training sessions. Managed the ordering of new parts. Worked with strategists to set design goals and deadlines.",
-    },
-  ],
-  skills: [
-    // "Zero Trust",
 
-    "C++",
-    "Python",
-    "TypeScript",
-    "SQL",
-    "Postgres",
-    "Django",
-    "Next.js",
-    "React",
-
-    "ROS2",
-    "Solidworks",
-    "Photoshop",
-    "Illustrator",
-
-    "Azure",
-    "AWS",
-    "GCP",
-    "Git",
-    "Docker",
-    "CI/CD",
-    "JIRA",
-    "Agile",
-
-  ],
-  projects: [
-    {
-      "title": "MyCache",
-      "techStack": ["NFC", "Django", "React", "React Native"],
-      "description": "Digital treasure hunt game powered by NFC technology.",
-      "link": {
-        "label": "MyCache",
-        "href": "https://mycache.dev"
-      }
-    },
-    {
-      "title": "Whisper Disco",
-      "techStack": ["WebRTC", "MediaSoup"],
-      "description": "Stream audio for silent discos over a local network. Show up and bring the party!",
-      "link": {
-        "label": "Whisper Disco",
-        "href": "https://github.com/torfoes/whisperdisco"
-      }
-    },
-    {
-      title: "PushPal",
-      techStack: ["Next.js", "WebPush"],
-      description:
-          "Manage attendance and check-ins and send group push notifications to keep everyone informed.",
-      link: {
-        label: "PushPal",
-        href: "https://pushpal.app",
-      },
-    },
-  ],
   leadershipAndService: [
     {
-      organization: "Aggie Entrepreneurship Program",
-      title: "Member",
-      start: "Jan. 2024",
-      end: "Dec. 2024",
+      organization: "FIRST Robotics Team 3310",
+      title: "Mentor",
+      start: "January 2022",
+      end: "Present",
       description:
-          "Met weekly to develop and refine business concepts, collaborated on market analysis, and competed in pitch competitions.",
+          "Led cad & programming sessions; coordinated part sourcing"
     },
     {
       organization: "Boy Scouts of America",
       title: "Eagle Scout",
-      // Optional dates:
-      // start: "Jun. 2018",
-      // end: "Achieved",
-      description:
-          "Earned Eagle Scout rank by leading impactful community service projects, coordinating team efforts, and mentoring younger scouts.",
+      description: "Completed 100+ service hours and leadership-focused skill development.",
     },
     {
-      organization: "FRC Team 3310 (FIRST Robotics)",
-      title: "Mentor & Former Member",
-      // Optional dates:
-      // start: "Jan. 2022",
-      // end: "Current",
+      organization: "Aggie Entrepreneurship Program",
+      title: "Member",
+      start: "January 2024",
+      end: "December 2024",
       description:
-          "Mentor team members in CAD design and programming; lead technical training sessions, coordinate parts procurement, and set design goals.",
+          "Met weekly to refine business concepts; collaborated on market analysis and took place in pitch competitions.",
     },
-
   ],
 
-  // Optionally, you can keep your FIRST Robotics entry in a separate activities section:
-
+  projects: [
+    {
+      title: "MyCache",
+      techStack: ["NFC", "Next.js", "React Native", "Drizzle", "AWS"],
+      description: "Treasure-hunt game using NFC tags for verification.",
+      link: { label: "mycache.dev", href: "https://mycache.dev" },
+    },
+    {
+      title: "Whisper Disco",
+      techStack: ["WebRTC", "MediaSoup"],
+      description: "Streams local-network audio for silent-disco events.",
+      link: { label: "GitHub", href: "https://github.com/torfoes/whisperdisco" },
+    },
+    {
+      title: "PushPal",
+      techStack: ["Next.js", "WebPush"],
+      description: "Attendance, check-ins, and group notifications for events.",
+      link: { label: "pushpal.app", href: "https://pushpal.app" },
+    },
+  ],
 } as const;
